@@ -1,23 +1,19 @@
-import React, {useState} from 'react'
-
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header/Header';
+import './assets/css/App.css'
+import NavBar from './components/NavBar/NavBar';
+import Slider from './components/Slider/Slider';
+import AboutUs from './components/AboutUs/AboutUs';
 function App() {
-  const [rating, setRating] = useState([
-    {
-      id: 1,
-      text: 'Hello'
-    },
-    {
-      id: 1,
-      text: 'Hello'
-    }
-  ])
+
   return (
-    <div >
-     
-     {rating.map((item) => (
-      <div>{item.text}</div>
-     ))}
-    </div>
+    <>
+      <Header/>
+      <NavBar/>
+      <Slider/>
+      <AboutUs/>
+    </>
   );
 }
 

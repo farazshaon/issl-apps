@@ -1,0 +1,73 @@
+/*-------HEADER------------*/
+
+:root {
+    --main-bg-color: #EF7F1F;
+  }
+.Header {
+    background-color: var(--main-bg-color);
+}
+/*-------NavBar------------*/
+.dropdown-menu {
+    border-radius: 0;
+}
+/*-------About------------*/
+.aboutImg {
+    position: relative;
+}
+.aboutImg span{
+    position: absolute;
+    background-color: orange;
+    transition: .3s
+  }
+  .aboutImg .one{
+    height: 0;
+    width: 2px;
+    top: 5%;
+    left: 5%;
+  }
+  .aboutImg .two{
+    height: 2px;
+    width: 0;
+    bottom: 5%;
+    left: 5%;
+  }
+  .aboutImg .three{
+    height: 0;
+    width: 2px;
+    bottom:5%;
+    right: 5%;
+  }
+  .aboutImg .four{
+    height: 2px;
+    width: 0;
+    top: 5%;
+    right: 5%;
+  }
+  .aboutImg:hover .one,
+  .aboutImg:hover .three{
+    height: 90%;
+  }
+  .aboutImg:hover .two,
+  .aboutImg:hover .four{
+    width: 90%;
+  }
+  .aboutImg:hover img{
+    transition-duration: .3s;
+    transition-delay: .3s;
+    opacity: .5;
+  }
+
+  .aboutArea {
+    padding: 2rem;
+  }
+
+  .aboutArea h4 {
+    color: var(--main-bg-color);
+  }
+  .aboutArea h5 span {
+    color: var(--main-bg-color);
+    font-weight: 600;
+}
+.aboutArea p {
+    text-align: justify;
+}
