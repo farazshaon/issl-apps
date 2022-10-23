@@ -11,51 +11,7 @@
     border-radius: 0;
 }
 /*-------About------------*/
-.aboutImg {
-    position: relative;
-}
-.aboutImg span{
-    position: absolute;
-    background-color: orange;
-    transition: .3s
-  }
-  .aboutImg .one{
-    height: 0;
-    width: 2px;
-    top: 5%;
-    left: 5%;
-  }
-  .aboutImg .two{
-    height: 2px;
-    width: 0;
-    bottom: 5%;
-    left: 5%;
-  }
-  .aboutImg .three{
-    height: 0;
-    width: 2px;
-    bottom:5%;
-    right: 5%;
-  }
-  .aboutImg .four{
-    height: 2px;
-    width: 0;
-    top: 5%;
-    right: 5%;
-  }
-  .aboutImg:hover .one,
-  .aboutImg:hover .three{
-    height: 90%;
-  }
-  .aboutImg:hover .two,
-  .aboutImg:hover .four{
-    width: 90%;
-  }
-  .aboutImg:hover img{
-    transition-duration: .3s;
-    transition-delay: .3s;
-    opacity: .5;
-  }
+
 
   .aboutArea {
     padding: 2rem;
@@ -70,4 +26,38 @@
 }
 .aboutArea p {
     text-align: justify;
+}
+
+
+.Services {
+  background-color: #e9ecefad;
+}
+.Services .card {
+  text-align: center;
+  padding: 3rem;
+  border-radius: 0;
+  transition: .4s;
+}
+
+.Services .card:hover {
+  border: 1px solid #EF7F1F;
+  border-radius: 0;
+}
+
+
+.Blog .card {
+  text-align: center;
+  min-height: 437px;
+  overflow: hidden;
+}
+.Blog .card h5 {
+  padding: 1rem;
+}
+.Blog .card img {
+  display: block;
+  width: 100%;
+
+}
+.Blog .card img:hover {
+
 }

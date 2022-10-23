@@ -5,6 +5,8 @@ import './assets/css/App.css'
 import NavBar from './components/NavBar/NavBar';
 import Slider from './components/Slider/Slider';
 import AboutUs from './components/AboutUs/AboutUs';
+import Services from './components/Services/Services';
+import Blog from './components/Blog/Blog';
 function App() {
 
   return (
@@ -13,6 +15,8 @@ function App() {
       <NavBar/>
       <Slider/>
       <AboutUs/>
+      <Services Heading='Our Best Solution'/>
+      <Blog/>
     </>
   );
 }
