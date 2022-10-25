@@ -58,6 +58,55 @@
   width: 100%;
 
 }
-.Blog .card img:hover {
 
+
+.ContactUs {
+  background-image:
+  linear-gradient(to bottom, rgba(0,200,129,.85), rgba(0,200,129,.85)),
+  url('../images/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.SubscribeWrapper {
+  background-color: var(--main-bg-color);
+  padding: 1.5rem;
+}
+.Subscribe {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  margin-top: 3rem;
+}
+.Footer {
+  color: #fff;
+  background-image: linear-gradient(rgba(18,19,24,.9),rgba(18,19,24,.9)),url(../images/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 50%;
+  overflow: hidden;
+  padding: 90px 0;
+  margin-top: 10rem;
+
+}
+.FooterLink ul {
+  margin: 0;
+  padding: 0;
+}
+.FooterLink ul li {
+  list-style: none;
+}
+.FooterLink ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 0;
+  display: block;
+  transition: .4s;
+}
+.FooterLink ul li a:hover {
+  color: var(--main-bg-color);
+  margin-left: 4px;
 }

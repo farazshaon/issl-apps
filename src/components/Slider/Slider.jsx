@@ -21,27 +21,10 @@ export default function Slider() {
         alt="First slide"
         />
   
-  </Carousel.Item>
+        </Carousel.Item>
 
         ))}
-        {/* <Carousel.Item>
-            <img
-            className="d-block w-100"
-            src={Slider02}
-            alt="Second slide"
-            />
-
     
-        </Carousel.Item> */}
-        {/* <Carousel.Item>
-            <img
-            className="d-block w-100"
-            src={Slider03}
-            alt="Third slide"
-            />
-
-        
-        </Carousel.Item> */}
         </Carousel>
         </>
   )

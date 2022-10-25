@@ -19,8 +19,8 @@ function Services({Heading}) {
 
                     <Col md={4} className='g-4'  key={index}>
                         <Cards>
-                        <div> <img src={item.src}  alt="" /></div>
-                        <div><h5> {item.heading}</h5></div>
+                            <div> <img src={item.src}  alt="" /></div>
+                            <div><h5> {item.heading}</h5></div>
                         </Cards>
                     </Col>
                 ))}
