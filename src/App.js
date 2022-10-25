@@ -1,13 +1,15 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css'
-import HomePages from './pages/HomePages';
+import TopBanner from './components/TopBanner/TopBanner';
+import DetailsPages from './components/DetailsPages/DetailsPages';
 
 function App() {
 
   return (
     <>
-     <HomePages/>
+    <TopBanner/>
+    <DetailsPages/>
     </>
   );
 }

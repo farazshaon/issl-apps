@@ -110,3 +110,27 @@
   color: var(--main-bg-color);
   margin-left: 4px;
 }
+
+/*--------------------------
+Top Banner
+-----------------------------*/
+.TopBanner {
+  color: #fff;
+  background-image: linear-gradient(rgba(18,19,24,.9),rgba(18,19,24,.9)),url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 50%;
+  overflow: hidden;
+  height: 50vh;
+  padding: 90px 0;
+}
+
+
+.DetailseContent h4 {
+  color: var(--main-bg-color);
+}
+.DetailseContent p {
+  color: #676767;
+  text-align: justify;
+}
