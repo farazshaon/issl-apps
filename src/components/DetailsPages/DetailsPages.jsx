@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import DetailsImg from '../../assets/images/proj-details.png'
 import {Container, Row, Col} from 'react-bootstrap'
+import DetailsData from './DetailsData'
+import WhyUs from './WhyUsData'
+
 function DetailsPages() {
+    const [BusinessData, setBusinessData] = useState(DetailsData)
+    const [whyData, setWhyData] = useState(WhyUs)
   return (
     <>
         <section className="Details mt-5">
@@ -21,12 +26,29 @@ function DetailsPages() {
                     </div>
                 </Col>
 
-                <Col md= {6}>
 
+
+                <h4 className='mt-5 mb-5 text-color'>BUSINESS SEGMENT</h4>
+                {BusinessData.map((item, index) => (
+                    <Col md= {6} key={index}>
+                    <div className="BusinessSegment">
+                        <img src={item.src} alt="" />
+                        <h4>{item.heading}</h4>
+                        <p>{item.text}</p>
+                    </div>
                 </Col>
-                <Col md= {6}>
-                    
-                    </Col>
+                ))}
+                
+               <h4 className='mt-5 mb-5 text-color'>WHY US!</h4>
+               {whyData.map((item, index) => (
+                 <Col md= {6} key={index}>
+                 <div className="BusinessSegment">
+                     <img src={item.src} alt="" />
+                     <h4>{item.heading}</h4>
+                     <p>{item.text}</p>
+                 </div>
+             </Col>
+               ))}
             </Row>
         </Container>
         </section>

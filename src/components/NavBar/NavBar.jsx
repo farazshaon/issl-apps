@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link, NavLink  } from 'react-router-dom'
 import { FaUserAstronaut, FaUserFriends, FaHeadset, FaRedo, FaRegFile, FaHeadphonesAlt, FaFile, FaTh,  FaUserPlus, FaTools, FaAndroid, FaThLarge,  FaRegEnvelope, FaCode, FaHandshake, FaHandsHelping} from "react-icons/fa";
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import Logo from '../../assets/images/issllogo-s.png'
@@ -12,11 +13,12 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="#home" className='warning'> Home</Nav.Link>                
+                    <Nav.Link className='warning Nav-Link'><NavLink to='/'> Home</NavLink></Nav.Link>                
                     <NavDropdown title="Call Center Service" id="basic-nav-dropdown" >
-                        <NavDropdown.Item href="#"> <FaUserAstronaut/> Inbound Services</NavDropdown.Item>
-                        <NavDropdown.Item href="#"><FaHeadset/> Outbound Services</NavDropdown.Item>
-                        <NavDropdown.Item href="#"> <FaUserFriends/> Specialized Services</NavDropdown.Item>
+                        
+                        <NavDropdown.Item ><NavLink to='/inboundservices'> <FaUserAstronaut/> Inbound Services </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/outboundservices'> <FaHeadset/> Outbound Services </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/specializedservices:title'> <FaUserFriends/> Specialized Services </NavLink></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="Back Office Service" id="basic-nav-dropdown">

@@ -126,7 +126,13 @@ Top Banner
   padding: 90px 0;
 }
 
+.text-color {
+  color: #EF7F1F;
+}
 
+.Details p {
+  color: #676767;
+}
 .DetailseContent h4 {
   color: var(--main-bg-color);
 }
