@@ -16,9 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUsPages />} />
-          <Route path="/inboundservices" element={<InboundServices />} />
-          <Route path="/outboundservices" element={<OutboundServicesPages />} />    
-          <Route path="/specializedservices:title" element={<DetailsPages />} />
+          <Route path="/inboundservices" element={<DetailsPages />} />
+          <Route path="/outboundservices" element={<DetailsPages />} />    
+          <Route path="/specializedservices" element={<DetailsPages />} />
         </Routes>
     </BrowserRouter>
     

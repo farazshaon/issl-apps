@@ -18,7 +18,7 @@ function NavBar() {
                         
                         <NavDropdown.Item ><NavLink to='/inboundservices'> <FaUserAstronaut/> Inbound Services </NavLink></NavDropdown.Item>
                         <NavDropdown.Item ><NavLink to='/outboundservices'> <FaHeadset/> Outbound Services </NavLink></NavDropdown.Item>
-                        <NavDropdown.Item ><NavLink to='/specializedservices:title'> <FaUserFriends/> Specialized Services </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/specializedservices'> <FaUserFriends/> Specialized Services </NavLink></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="Back Office Service" id="basic-nav-dropdown">

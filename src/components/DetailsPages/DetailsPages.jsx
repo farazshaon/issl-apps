@@ -3,13 +3,17 @@ import DetailsImg from '../../assets/images/proj-details.png'
 import {Container, Row, Col} from 'react-bootstrap'
 import DetailsData from './DetailsData'
 import WhyUs from './WhyUsData'
+import Header from '../Header/Header'
+import NavBar from '../NavBar/NavBar'
 
-function DetailsPages() {
+const  DetailsPages = () => {
     const [BusinessData, setBusinessData] = useState(DetailsData)
     const [whyData, setWhyData] = useState(WhyUs)
   return (
     <>
-        <section className="Details mt-5">
+        <section className="Details">
+            <Header/>
+            <NavBar/>
         <Container>
             <Row>
                 <Col md={5}>
@@ -17,7 +21,7 @@ function DetailsPages() {
                 </Col>
                 <Col md={7}>
                     <div className="DetailseContent">
-                        <h4>INBOUND SERVICES</h4> 
+                        <h4>Hello</h4> 
                         <p>To create and maintain a good relationship with your customers of your organization, a single point of customer support is a must need for your venture. It is proven that you can create promoters through effective and efficient customer service and on the contrary 58% of you Customer
                              leaves you because of poor customer service! Why not outsource your additional tasks to us and let us keep the smiles of your customer counting..!</p>
                         <p>
