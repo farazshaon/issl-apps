@@ -5,16 +5,17 @@ import TopBanner from '../components/TopBanner/TopBanner'
 import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
-
+import {inbound_service} from '../Data/SoftwareDevelopmentData/BPOSolutionsData'
 
 export default function InboundServices() {
+
   return (
     <>
         <Header/>
         <NavBar/>
         <TopBanner/>
         <Menu/>
-        <DetailsPages/>
+        <DetailsPages data={inbound_service}/>
         <Footer/>
     </>
   )

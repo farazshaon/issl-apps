@@ -5,7 +5,7 @@ import TopBanner from '../components/TopBanner/TopBanner'
 import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
-import {inbound_service} from '../Data/CallCenterServiceData/SpecializedServicesData'
+import {inbound_service} from '../Data/TrainingHRSourcingData/HRSourcingData'
 
 export default function InboundServices() {
 
