@@ -37,8 +37,8 @@ const DetailsPages = ({ data }) => {
                 <h4>{data?.infrastructure?.title}</h4>
                 <ul>
                   {data?.infrastructure?.data_list.length > 0 &&
-                    data?.infrastructure?.data_list.map((item) => (
-                      <li>{item}</li>
+                    data?.infrastructure?.data_list.map((item, index) => (
+                      <li key={index}>{item}</li>
                     ))}
                 </ul>
               </div>
@@ -49,8 +49,8 @@ const DetailsPages = ({ data }) => {
                 <h4>{data?.value_edition?.title}</h4>
                 <ul>
                   {data?.value_edition?.data_list.length > 0 &&
-                    data?.value_edition?.data_list.map((item) => (
-                      <li>{item}</li>
+                    data?.value_edition?.data_list.map((item, index ) => (
+                      <li key={index}>{item}</li>
                     ))}
                 </ul>
               </div>
