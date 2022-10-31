@@ -12,7 +12,7 @@ function Blog({Heading}) {
       <h4 className='text-center py-5'>{Heading}</h4>
     <Row>
       {BlogItems.map((item, index) => (
-        <Col md={4} key={index}>
+        <Col md={3} key={index}>
           <Cards>
             <img src={item.src}  alt="" />
              <h5>{item.title}</h5>

@@ -7,6 +7,7 @@ import Services from '../components/Services/Services'
 import Blog from '../components/Blog/Blog'
 import ContactUs from '../components/ContactUs/ContactUs'
 import Footer from '../components/Footer/Footer'
+import Countup from '../components/Countup/Countup'
 
 
 export default function HomePages() {
@@ -16,8 +17,9 @@ export default function HomePages() {
      <NavBar/>
      <Slider/>
      <AboutUs/>
-     <Services/>
-     <Blog/>
+     <Services Heading='OUR SERVICES'/>
+     <Countup/>
+     <Blog Heading='LATEST BLOGS'/>
      <ContactUs/>
      <Footer/>
 

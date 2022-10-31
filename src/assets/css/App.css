@@ -34,13 +34,10 @@
   border-radius: 0;
   transition: .4s;
 }
-
 .Services .card:hover {
   border: 1px solid #EF7F1F;
   border-radius: 0;
 }
-
-
 .Blog .card {
   text-align: center;
   min-height: 437px;
@@ -135,4 +132,19 @@ Top Banner
 .DetailseContent p {
   color: #676767;
   text-align: justify;
+}
+/*--------------------------
+Top Banner
+-----------------------------*/
+.CountUp {
+  background-image: linear-gradient(rgba(18,19,24,.9),rgba(18,19,24,.9)),url(../images/counter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 6rem;
+  background-attachment: fixed;
+}
+.CountUp h2 {
+  color: var(--main-bg-color);
 }
