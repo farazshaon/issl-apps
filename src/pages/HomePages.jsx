@@ -8,6 +8,7 @@ import Blog from '../components/Blog/Blog'
 import ContactUs from '../components/ContactUs/ContactUs'
 import Footer from '../components/Footer/Footer'
 import Countup from '../components/Countup/Countup'
+import LatestWorks from '../components/LatestWorks/LatestWorks'
 
 
 export default function HomePages() {
@@ -19,6 +20,7 @@ export default function HomePages() {
      <AboutUs/>
      <Services Heading='OUR SERVICES'/>
      <Countup/>
+     <LatestWorks/>
      <Blog Heading='LATEST BLOGS'/>
      <ContactUs/>
      <Footer/>

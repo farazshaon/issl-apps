@@ -2,6 +2,7 @@ import React from 'react'
 import {Container, Row, Col, Button} from 'react-bootstrap'
 import About from '../../assets/images/about.png'
 import { FaAward } from "react-icons/fa";
+import PrimaryBtn from '../Button/PrimaryBtn'
 function AboutUs() {
   return (
     <>
@@ -24,7 +25,7 @@ function AboutUs() {
                         <p> <strong>Impel Service & Solutions Limited (iSSL)</strong> has been operating as a Business Process Outsourcing (BPO) firm since 2011, offering a comprehensive set of IT services and solutions for domestic & international markets with superior quality considerations. The key proposition of our services are quality-centric processes with a strong emphasis on information security, state of the art infrastructure, robust reporting mechanism, data driven control overhead, and high-end resource development strategy.
                              We believe in building steady and long term relationships as a service partner by providing a one-stop solution for BPO, IT, and ITes support & services.</p>
                              <div className="d-flex justify-content-between mt-5">
-                                <div className="p-2 "><Button variant="warning">KNOW MORE</Button></div>
+                                <div className="p-2 "><PrimaryBtn variant="warning">KNOW MORE</PrimaryBtn></div>
                                 <div className="p-2 "><h4> <FaAward/> 10+ Years Experience</h4></div>
                             </div>       
     

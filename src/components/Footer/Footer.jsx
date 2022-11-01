@@ -51,14 +51,14 @@ function Footer() {
                 <Row>
                     <Col md={3}>
                       <div className="FooterAbout">
-                      <h4 className='py-3'>ABOUT US</h4>
+                      <h5 className='py-3'>ABOUT US</h5>
                         <p>Impel Service & Solutions Limited is a Business Process Outsourcing (BPO) firm, 
                             offering a comprehensive set of service and solutions for domestic & international markets with superior quality consideration.</p>
                       </div>
                     </Col>
                     <Col md={3}>
                         <div className="FooterContact">
-                        <h4 className='py-3'>CONTACT US</h4>
+                        <h5 className='py-3'>CONTACT US</h5>
                         <p>Corporate Address:
                             Nabila Tower, Plot-6 (Level-3), Road-7/D, Sector-9, Uttara,
                             Dhaka-1230, Bangladesh</p>
@@ -71,7 +71,7 @@ function Footer() {
                     </Col>
                     <Col md={3}>
                         <div className="FooterLink">
-                        <h4 className='py-3'>IMPORTANT LINKS</h4>
+                        <h5 className='py-3'>IMPORTANT LINKS</h5>
                         <ul>
                             <li>
                                 <a href="#">Home</a>
@@ -91,7 +91,7 @@ function Footer() {
                     </Col>
                     <Col md={3}>
                         <div className="FooterNews">
-                        <h4 className='py-3'>OFFICE</h4>
+                        <h5 className='py-3'>OFFICE</h5>
                         <p>09614282828 (9AM to 6PM Except Fridays & Govt. Holidays)</p>
                         <p>+880 02-8931295</p>
                         </div>

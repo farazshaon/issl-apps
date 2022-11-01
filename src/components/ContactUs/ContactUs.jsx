@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Form, Button} from 'react-bootstrap'
 import { FaHeadset, FaEnvelope, FaMapMarkerAlt, FaMobileAlt } from "react-icons/fa";
+import PrimaryBtn from '../Button/PrimaryBtn'
 
 function ContactUs() {
   return (
@@ -80,9 +81,9 @@ function ContactUs() {
                             <Form.Control as="textarea" placeholder='Your Requirements...' rows={3} className=' rounded-0'  />
                         </Form.Group>
                  
-                        <Button className='rounded-0' variant="warning" type="submit">
+                        <PrimaryBtn className='rounded-0' variant="warning" type="submit">
                             Submit
-                        </Button>
+                        </PrimaryBtn>
                         </Form>
                         </div>
                     

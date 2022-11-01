@@ -1,31 +1,68 @@
 import React, {useState} from 'react'
 import {Carousel} from 'react-bootstrap'
-import Slider01 from '../../assets/images/Sliderimg/slider01.png'
-import Slider02 from '../../assets/images/Sliderimg/slider02.png'
-import Slider03 from '../../assets/images/Sliderimg/slider03.png'
-import SliderImages from './SliderImages'
+import Slider1 from '../../assets/images/Sliderimg/slider02.png'
+import Slider2 from '../../assets/images/Sliderimg/slider03.png'
+
 
 
 export default function Slider() {
 
-    const [img, setImg] = useState(SliderImages)
+
 
   return (
     <>
-    <Carousel>
-        {img.map((sliderImg, index) => (
-      <Carousel.Item key={index}>
-        <img
-        className="d-block w-100"
-        src={sliderImg.src}
-        alt="First slide"
-        />
-  
+ <Carousel fade>
+      <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider1}
+            alt="First slide"
+          />
+
+          <div className="SliderOverlay">  
+            <Carousel.Caption>
+              <h1>Impel Service & Solutions Ltd.</h1>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </div>
         </Carousel.Item>
 
-        ))}
-    
-        </Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider2}
+            alt="Second slide"
+          />
+           <div className="SliderOverlay">  
+            <Carousel.Caption>
+            <h1>Impel Service & Solutions Ltd.</h1>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider1}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+            <Carousel.Caption>
+            <h1>Impel Service & Solutions Ltd.</h1>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </div>
+          
+        </Carousel.Item>
+      </Carousel>
         </>
   )
 }
