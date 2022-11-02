@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {Container, Row, Col, Nav} from 'react-bootstrap'
 import { FaMobile, FaHeadset } from "react-icons/fa";
 import HeadItem from './HeadItem'
-
+import {Link} from 'react-router-dom'
 function Header() {
     const [Header, setHeader] = useState(HeadItem)
   return (
@@ -15,7 +15,7 @@ function Header() {
                             <Nav>
                                 {Header.map((item, index) => (
                                     <Nav.Item key={index}>
-                                        <Nav.Link className='text-dark' href={item.url}>{item.title}</Nav.Link>
+                                        <Nav.Link className='text-dark' href={item.url}> <Link to={item.url}> {item.title}</Link> </Nav.Link>
                                     </Nav.Item>
                                 ))}
                             </Nav>

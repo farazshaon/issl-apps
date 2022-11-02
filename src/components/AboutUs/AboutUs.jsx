@@ -8,7 +8,6 @@ import ReactPlayer from 'react-player'
 function AboutUs() {
 
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
@@ -23,7 +22,7 @@ function AboutUs() {
 
                        <div className="videoIcon">
                       
-                           <button id="play-video" class="video-play-button" onClick={handleShow}>
+                           <button id="play-video" className="video-play-button" onClick={handleShow}>
                             <span></span>
                         </button>
                        </div>
@@ -60,7 +59,7 @@ function AboutUs() {
         </Modal.Header>
         <Modal.Body>
         <ReactPlayer url='https://www.youtube.com/watch?v=IY73pOUdkFI' controls width='100%'
-          height='350px'/>
+          height='300px'/>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

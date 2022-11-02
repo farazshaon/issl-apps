@@ -1,5 +1,7 @@
 /*-------HEADER------------*/
-
+body {
+  font-family: 'Poppins', sans-serif;
+}
 :root {
     --main-bg-color: #EF7F1F;
     --text-color: #EF7F1F;
@@ -7,7 +9,10 @@
 .Header {
     background-color: var(--main-bg-color);
 }
-
+a {
+  color: #18212e !important;
+  text-decoration: none;
+}
 .SectionHeading {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -26,13 +31,6 @@
 /*-------NavBar------------*/
 .dropdown-menu {
     border-radius: 0;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-.dropdown .dropdown-menu {
-  display: none;
 }
 
 .carousel-caption {
@@ -80,7 +78,7 @@
   display: block;
   width: 80px;
   height: 80px;
-  background: #ba1f24;
+  background-color: #ba1f24;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -240,7 +238,7 @@
 }
 .FooterLink ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #fff !important;
   padding: 5px 0;
   display: block;
   transition: .4s;

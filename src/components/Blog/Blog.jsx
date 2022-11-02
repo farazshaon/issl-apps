@@ -1,7 +1,6 @@
 import React from 'react'
 import Cards from '../Cards/Cards'
 import {Container, Col, Row} from 'react-bootstrap'
-import SecondaryBtn from '../Button/SecondaryBtn'
 import Bolg1 from '../../assets/images/blog1.png'
 import Bolg2 from '../../assets/images/blog2.png'
 import Bolg3 from '../../assets/images/blog3.png'
