@@ -3,7 +3,7 @@ import React from 'react'
 function PrimaryBtn({children}) {
   return (
     <>
-    <button className="Btn BtnOrange">{children}</button>
+    <a href='#' className="Btn BtnOrange">{children}</a>
     </>
   )
 }
