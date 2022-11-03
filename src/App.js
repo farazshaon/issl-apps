@@ -20,6 +20,11 @@ import SmsBusinesspages from './pages/SmsBusinesspages'
 
 
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import CareerPages from './pages/CareerPages';
+import HowWeWorkPages from './pages/HowWeWorkPages';
+import BlogPages from './pages/BlogPages';
+import ContactPages from './pages/ContactPages';
+import News from './components/News/News';
 
 function App() {
   return (
@@ -43,6 +48,11 @@ function App() {
           <Route path="/bposolutions" element={<BPOSolutionsPages/>} />
           <Route path="/businesssoftware" element={<BusinessSoftwarePages/>} />
           <Route path="/smsBusiness" element={<SmsBusinesspages/>} />
+          <Route path="/career" element={<CareerPages/>} />
+          <Route path="/work" element={<HowWeWorkPages/>} />
+          <Route path="/blog" element={<BlogPages/>} />
+          <Route path="/newsroom" element={<News/>} />
+          <Route path="/contact" element={<ContactPages/>} />
 
           
         </Routes>

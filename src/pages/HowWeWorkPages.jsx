@@ -1,22 +1,20 @@
 import React from 'react'
-import AboutUs from '../components/AboutUs/AboutUs'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import Menu from '../components/Menu/Menu'
+import HowWeWork from '../components/HowWeWork/HowWeWork'
 import NavBar from '../components/NavBar/NavBar'
-import Team from '../components/Team/Team'
 import TopBanner from '../components/TopBanner/TopBanner'
 
-export default function AboutUsPages() {
+function HowWeWorkPages() {
   return (
     <>
     <Header/>
     <NavBar/>
     <TopBanner/>
-    <Menu/>
-    <AboutUs/>
-    <Team/>
+    <HowWeWork/>
     <Footer/>
     </>
   )
 }
+
+export default HowWeWorkPages

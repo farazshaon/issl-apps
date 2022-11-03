@@ -1,11 +1,15 @@
 /*-------HEADER------------*/
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
 }
 :root {
     --main-bg-color: #EF7F1F;
     --text-color: #EF7F1F;
   }
+.text-color {
+  color: #EF7F1F;
+}
 .Header {
     background-color: var(--main-bg-color);
 }
@@ -78,7 +82,7 @@ a {
   display: block;
   width: 80px;
   height: 80px;
-  background-color: #ba1f24;
+  background-color: #ff7730;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -93,13 +97,13 @@ a {
   display: block;
   width: 80px;
   height: 80px;
-  background: #fa183d;
+  background: #EF7F1F;
   border-radius: 50%;
   transition: all 200ms;
 }
 
 .video-play-button:hover:after {
-  background-color: darken(#fa183d, 10%);
+  background-color: darken(#EF7F1F, 10%);
 }
 
 .video-play-button img {
@@ -131,9 +135,6 @@ a {
     opacity: 0;
   }
 }
-
-
-
 
   .aboutArea {
     padding: 2rem;
@@ -200,7 +201,7 @@ a {
 
 .ContactUs {
   background-image:
-  linear-gradient(to bottom, rgba(0,200,129,.85), rgba(0,200,129,.85)),
+  linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0,0,0,.8)),
   url('../images/banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -373,4 +374,25 @@ LATEST WORKS
 .WorkCard:hover .CardOverlay {
 	opacity: 1;
 	transform: scale(1);
+}
+
+/*-----------------------
+Our Team
+--------------------------*/
+.OurTeam {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  padding: 30px 20px 30px;
+  text-align: center;
+}
+.OurTeam img {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #EF7F1F;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 30px;
 }
