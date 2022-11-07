@@ -1,21 +1,20 @@
 import React from 'react'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import LatestWorks from '../components/LatestWorks/LatestWorks'
 import NavBar from '../components/NavBar/NavBar'
+import { PlatformManagement } from '../components/PlatformManagement/PlatformManagement'
 import TopBanner from '../components/TopBanner/TopBanner'
 
-
-function BusinessSoftwarePages() {
+function PlatformManagementPages() {
   return (
     <>
-      <Header/>
-      <NavBar/>
-      <TopBanner/>
-      <LatestWorks/>
-      <Footer/>
+    <Header/>
+    <NavBar/>
+    <TopBanner/>
+    <PlatformManagement/>
+    <Footer/>
     </>
   )
 }
 
-export default BusinessSoftwarePages
+export default PlatformManagementPages

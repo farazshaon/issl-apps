@@ -1,5 +1,5 @@
 export const inbound_service = {
-  service_title: "BAD DEBT RECOVERY",
+  service_title: "Training",
   service_details: `Our Bad Debt Recovery Management solely focusing on Telecommunication, Banks, Financial Institutions and Insurance organizations as they face a great obstacle in financial growth due to outstanding recovery issues. We have created a new concept of collection operations in the BPO market focusing more on creating promoters through maintaining customer satisfaction as well as following them up for a smooth recovery process between our clients and customers.
 
   We have our expert customer service pool who works as a call center agent to call the customers and inform them regarding the detailed dues for their services. Moreover, convince the customers for paying the due amounts through the authorized channels with a professional service guideline. We can also follow up the customers regarding the payment issues based on the report from our clients. In the end, customers are not only paying debts.`,

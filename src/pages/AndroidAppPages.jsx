@@ -5,17 +5,15 @@ import LatestWorks from '../components/LatestWorks/LatestWorks'
 import NavBar from '../components/NavBar/NavBar'
 import TopBanner from '../components/TopBanner/TopBanner'
 
-
-function BusinessSoftwarePages() {
+export const AndroidAppPages = () => {
   return (
     <>
-      <Header/>
-      <NavBar/>
-      <TopBanner/>
-      <LatestWorks/>
-      <Footer/>
+    <Header/>
+    <NavBar/>
+    <TopBanner/>
+    <LatestWorks/>
+    <Footer/>
+    
     </>
   )
 }
-
-export default BusinessSoftwarePages

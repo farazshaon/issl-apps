@@ -34,7 +34,7 @@ function NavBar() {
                     </NavDropdown>
 
                     <NavDropdown title="Training & HR Sourcing" id="basic-nav-dropdown">
-                        <NavDropdown.Item> <NavLink to='/trainingPages'><FaUserAstronaut/> Training </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item> <NavLink to='/training'><FaUserAstronaut/> Training </NavLink></NavDropdown.Item>
                         <NavDropdown.Item ><NavLink to='/skilldevelopmentprogram'> <FaFile/> Skill Development Program </NavLink></NavDropdown.Item>
                         <NavDropdown.Item> <NavLink to='/hrsourceing'><FaUserPlus/> HR Sourcing </NavLink></NavDropdown.Item>
                     </NavDropdown>
@@ -48,12 +48,12 @@ function NavBar() {
 
                     <NavDropdown title=" Digital Service" id="basic-nav-dropdown">
                         <NavDropdown.Item ><NavLink to='/smsBusiness'> <FaRegEnvelope/> SMS Business </NavLink></NavDropdown.Item>
-                        <NavDropdown.Item ><NavLink to=''> <FaThLarge/> Platform Management </NavLink></NavDropdown.Item>
-                        <NavDropdown.Item ><NavLink to=''> <FaTh/> Shortcode Support </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/platformManagement'> <FaThLarge/> Platform Management </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/shortCodesupport'> <FaTh/> Shortcode Support </NavLink></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title=" Mobile Applications" id="basic-nav-dropdown">
-                        <NavDropdown.Item ><NavLink to=''> <FaAndroid/> Android App </NavLink></NavDropdown.Item>                     
+                        <NavDropdown.Item ><NavLink to='/androidapp'> <FaAndroid/> Android App </NavLink></NavDropdown.Item>                     
                     </NavDropdown>
 
                 </Nav>

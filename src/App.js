@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css'
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import InboundServicesPages from './pages/InboundServicesPages';
 import OutboundServicesPages from './pages/OutboundServicesPages';
 import SpecializedServicesPages from './pages/SpecializedServicesPages';
@@ -17,14 +18,15 @@ import SoftwareConsultingPages from './pages/SoftwareConsultingPages'
 import BPOSolutionsPages from './pages/BPOSolutionsPages'
 import BusinessSoftwarePages from './pages/BusinessSoftwarePages'
 import SmsBusinesspages from './pages/SmsBusinesspages'
-
-
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import CareerPages from './pages/CareerPages';
 import HowWeWorkPages from './pages/HowWeWorkPages';
 import BlogPages from './pages/BlogPages';
 import ContactPages from './pages/ContactPages';
-import News from './components/News/News';
+import { NewsPages } from './pages/NewsPages';
+import PlatformManagementPages from './pages/PlatformManagementPages';
+import { ShortCodeSupportPages } from './pages/ShortCodeSupportPages';
+import { AndroidAppPages } from './pages/AndroidAppPages';
+
 
 function App() {
   return (
@@ -51,8 +53,13 @@ function App() {
           <Route path="/career" element={<CareerPages/>} />
           <Route path="/work" element={<HowWeWorkPages/>} />
           <Route path="/blog" element={<BlogPages/>} />
-          <Route path="/newsroom" element={<News/>} />
+          <Route path="/newsroom" element={<NewsPages/>} />
           <Route path="/contact" element={<ContactPages/>} />
+          <Route path="/businesssoftware" element={<BusinessSoftwarePages/>} />
+          <Route path="/platformManagement" element={<PlatformManagementPages/>} />
+          <Route path="/shortCodesupport" element={<ShortCodeSupportPages/>} />
+          <Route path="/androidapp" element={<AndroidAppPages/>} />
+      
 
           
         </Routes>
