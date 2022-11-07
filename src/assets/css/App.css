@@ -231,6 +231,46 @@ a {
   margin-top: 10rem;
 
 }
+
+.socailIcon ul {
+  margin: 0;
+  padding: 0;
+}
+.socailIcon ul li {
+  list-style: none;
+  display: inline-block;
+}
+.socailIcon ul li a {
+  padding-right: 10px;
+ 
+}
+.facebook {
+  color: #1190F2;
+}
+.linkedin {
+  color: #0077B5;
+}
+.youtube {
+  color: #FC0000;
+}
+.socailIcon ul li a svg {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #EF7F1F;
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding: 5px;
+  -webkit-transition: width .4s,-webkit-transform .4s;
+}
+.socailIcon ul li a svg:hover{
+  -webkit-transform:rotate(360deg);
+}
+.Footer p {
+  text-align: justify;
+}
 .FooterLink ul {
   margin: 0;
   padding: 0;

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col, Form, Button} from 'react-bootstrap'
-import { FaEnvelopeOpenText } from "react-icons/fa";
+import { FaEnvelopeOpenText, FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -54,6 +54,16 @@ function Footer() {
                       <h5 className='py-3'>ABOUT US</h5>
                         <p>Impel Service & Solutions Limited is a Business Process Outsourcing (BPO) firm, 
                             offering a comprehensive set of service and solutions for domestic & international markets with superior quality consideration.</p>
+                      
+                        <div className="socailIcon">
+                            <ul>
+                                <li><a href="#"><FaFacebook className='facebook'/></a></li>
+                                <li><a href="#"> <FaLinkedin className='linkedin'/></a></li>
+                                <li><a href="#"><FaYoutube className='youtube' /></a></li>
+                               
+                                
+                            </ul>
+                        </div>
                       </div>
                     </Col>
                     <Col md={3}>
