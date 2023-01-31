@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Form, Button} from 'react-bootstrap'
 import { FaEnvelopeOpenText, FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 function Footer() {
   return (
     <>
@@ -28,14 +29,14 @@ function Footer() {
                     <Form>
                     <Form.Group controlId="formBasicEmail">
 
-                        <Form.Control type="email" className='p-3 rounded-0' placeholder="Enter email" />
+                        <Form.Control type="email" className='p-2 rounded-0 mt-2' placeholder="Enter email" />
                     
                     </Form.Group>
 
                     </Form>
                     </div>
                     <div className="p-2 bd-highlight">
-                    <Button variant="dark" className='p-3 rounded-0' type="submit">
+                    <Button variant="dark" className='p-2 rounded-0 mt-2' type="submit">
                         Subscribe
                     </Button>
                     </div>
@@ -57,9 +58,9 @@ function Footer() {
                       
                         <div className="socailIcon">
                             <ul>
-                                <li><a href="#"><FaFacebook className='facebook'/></a></li>
-                                <li><a href="#"> <FaLinkedin className='linkedin'/></a></li>
-                                <li><a href="#"><FaYoutube className='youtube' /></a></li>
+                                <li><a href="https://www.facebook.com/isslbpo/" rel="noopener" target='_blank'><FaFacebook className='facebook'/></a></li>
+                                <li><a href="https://bd.linkedin.com/company/isslbpo" rel="noopener" target='_blank'> <FaLinkedin className='linkedin'/></a></li>
+                                <li><a href="https://www.youtube.com/@impelserviceandsolutionsli5443/featured" rel="noopener" target='_blank'><FaYoutube className='youtube' /></a></li>
                                
                                 
                             </ul>
@@ -84,16 +85,16 @@ function Footer() {
                         <h5 className='py-3'>IMPORTANT LINKS</h5>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <Link to='/about'>About Us</Link>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <Link to='/blog'>Blog</Link>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <Link to='/contact'>Contact Us</Link>
                             </li>
                         </ul>
                         </div>

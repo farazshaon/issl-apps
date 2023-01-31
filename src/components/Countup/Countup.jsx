@@ -16,10 +16,10 @@ export default class Countup extends Component {
                 <h2><FaSmile/></h2>
                 <h4>
                 <CountUp start={0} end={13000000}>
-                {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start}>
+                {({ countUpRef}) => (
+                    
                     <span ref={countUpRef} />                   
-                    </VisibilitySensor>
+                   
                 )}
             </CountUp>
                 </h4>
@@ -33,10 +33,10 @@ export default class Countup extends Component {
                 <h2><FaUserFriends/></h2>
                 <h4>
                 <CountUp start={0} end={50}>
-                {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start}>
+                {({ countUpRef }) => (
+           
                     <span ref={countUpRef} />                   
-                    </VisibilitySensor>
+                    
                 )}
             </CountUp>
                 </h4>
@@ -51,10 +51,10 @@ export default class Countup extends Component {
 
                 <h4>
                 <CountUp start={0} end={200}>
-                {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start}>
+                {({ countUpRef}) => (
+                  
                     <span ref={countUpRef} />                   
-                    </VisibilitySensor>
+                    
                 )}
             </CountUp>
                 </h4>
@@ -69,10 +69,10 @@ export default class Countup extends Component {
                 <h2><FaHeadset/></h2>
                 <h4>
                 <CountUp start={0} end={250}>
-                {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start}>
+                {({ countUpRef }) => (
+                 
                     <span ref={countUpRef} />                   
-                    </VisibilitySensor>
+                    
                 )}
             </CountUp>
                 </h4>
@@ -86,10 +86,10 @@ export default class Countup extends Component {
                 <h2><FaIndustry/></h2>
                 <h4>
                 <CountUp start={0} end={1200}>
-                {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start}>
+                {({ countUpRef}) => (
+                  
                     <span ref={countUpRef} />                   
-                    </VisibilitySensor>
+                   
                 )}
             </CountUp>
                 </h4>

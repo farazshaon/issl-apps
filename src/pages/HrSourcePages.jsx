@@ -6,7 +6,8 @@ import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
 import {inbound_service} from '../Data/TrainingHRSourcingData/HRSourcingData'
-
+import { CopyRight } from '../components/CopyRight/CopyRight'
+import {TrainingHRsourcingMenu} from '../Data/TrainingHRSourcingData/TrainingHRsourcingMenu'
 export default function InboundServices() {
 
   return (
@@ -14,9 +15,10 @@ export default function InboundServices() {
         <Header/>
         <NavBar/>
         <TopBanner/>
-        <Menu/>
+        <Menu menu={ TrainingHRsourcingMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>
+        <CopyRight/>
     </>
   )
 }

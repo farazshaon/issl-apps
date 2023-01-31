@@ -1,7 +1,13 @@
 import React, {useState} from 'react'
 import {Carousel} from 'react-bootstrap'
-import Slider1 from '../../assets/images/Sliderimg/slider02.png'
-import Slider2 from '../../assets/images/Sliderimg/slider03.png'
+import Slider1 from '../../assets/images/Sliderimg/header-slider-1.jpg'
+import Slider2 from '../../assets/images/Sliderimg/header-slider-2.jpg'
+import Slider3 from '../../assets/images/Sliderimg/header-slider-3.jpg'
+import Slider4 from '../../assets/images/Sliderimg/header-slider-4.jpg'
+import Slider5 from '../../assets/images/Sliderimg/header-slider-5.jpg'
+import Slider6 from '../../assets/images/Sliderimg/header-slider-6.jpg'
+import Slider7 from '../../assets/images/Sliderimg/header-slider-7.jpg'
+import Slider8 from '../../assets/images/Sliderimg/header-slider-8.jpg'
 
 
 
@@ -23,7 +29,7 @@ export default function Slider() {
             <Carousel.Caption>
               <h1>Impel Service & Solutions Ltd.</h1>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              You trusted service partner
               </p>
             </Carousel.Caption>
           </div>
@@ -36,29 +42,82 @@ export default function Slider() {
             alt="Second slide"
           />
            <div className="SliderOverlay">  
-            <Carousel.Caption>
-            <h1>Impel Service & Solutions Ltd.</h1>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
+           
           </div>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={Slider1}
+            src={Slider3}
             alt="Third slide"
           />
 
           <div className="SliderOverlay">  
-            <Carousel.Caption>
-            <h1>Impel Service & Solutions Ltd.</h1>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
+           
+          </div>
+          
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider4}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+            
+          </div>
+          
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider5}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+            
+          </div>
+          
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider6}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+           
+          </div>
+          
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider7}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+           
+          </div>
+          
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider8}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+        
           </div>
           
         </Carousel.Item>

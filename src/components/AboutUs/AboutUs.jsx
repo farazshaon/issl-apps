@@ -13,7 +13,7 @@ function AboutUs() {
 
   return (
     <>
-       <section className="AboutUs mt-5">
+       <section className="AboutUs mt-5 mb-5">
        <Container>
             <Row>
                 <Col md={6}>
@@ -55,7 +55,7 @@ function AboutUs() {
 
        <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">Modal heading</Modal.Title>
+          
         </Modal.Header>
         <Modal.Body>
         <ReactPlayer url='https://www.youtube.com/watch?v=IY73pOUdkFI' controls width='100%'

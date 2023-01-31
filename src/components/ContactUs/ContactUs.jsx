@@ -66,10 +66,11 @@ function ContactUs() {
                             </Col>
                         </Row>
                         <Form.Select className="mb-3 rounded-0">
-                            <option>Open this select menu</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
+                            <option>Select a Category...</option>
+                            <option value="1">Product & Services</option>
+                            <option value="2">Career</option>
+                            <option value="3">Training & Development</option>
+                            <option value="3">Others</option>
                         </Form.Select>
                         <Form.Group className="mb-3" >
                            

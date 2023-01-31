@@ -14,14 +14,14 @@ function NavBar() {
      
         <Navbar bg="light" expand="lg">
             <Container fluid>
-                <Navbar.Brand> <img src={Logo} className="img-fluid" alt="" /> </Navbar.Brand>
+                <Navbar.Brand><NavLink to ='/' >  <img src={Logo} className="img-fluid" alt="" /> </NavLink> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                <Nav.Link > <NavLink to ='/' >  Home </NavLink> </Nav.Link>              
+                <Nav.Link > <NavLink to ='/' > Home </NavLink> </Nav.Link>              
                     <NavDropdown title="Call Center Service" id="basic-nav-dropdown" >
-                        <NavDropdown.Item ><NavLink to='/inboundservices'> <FaUserAstronaut/> Inbound Services </NavLink></NavDropdown.Item>
-                        <NavDropdown.Item ><NavLink to='/outboundservices'> <FaHeadset/> Outbound Services </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/inboundservices'> <FaUserAstronaut/> Inbound Services   </NavLink></NavDropdown.Item>
+                        <NavDropdown.Item ><NavLink to='/outboundservices'> <FaHeadset/>  Outbound Services </NavLink></NavDropdown.Item>
                         <NavDropdown.Item ><NavLink to='/specializedservices'> <FaUserFriends/> Specialized Services </NavLink></NavDropdown.Item>
                     </NavDropdown>
 
@@ -40,7 +40,7 @@ function NavBar() {
                     </NavDropdown>
 
                     <NavDropdown title="Software Development" id="basic-nav-dropdown">
-                        <NavDropdown.Item ><NavLink to='/customsoftwaredevelopment'> <FaTools/>  Custom Software Development</NavLink> </NavDropdown.Item>               
+                        <NavDropdown.Item ><NavLink to='/customsoftwaredevelopment'> <FaTools/>  Custom Software Development </NavLink> </NavDropdown.Item>               
                         <NavDropdown.Item ><NavLink to='/softwareconsulting'> <FaCode/> Software Consulting </NavLink></NavDropdown.Item>
                         <NavDropdown.Item ><NavLink to='/bposolutions'> <FaHandsHelping/> BPO Solutions </NavLink></NavDropdown.Item>
                         <NavDropdown.Item ><NavLink to='/businesssoftware'> <FaHandshake/>  Business Software </NavLink></NavDropdown.Item>
@@ -58,6 +58,9 @@ function NavBar() {
 
                 </Nav>
                 </Navbar.Collapse>
+
+                
+
             </Container>
             </Navbar>
   

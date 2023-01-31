@@ -26,6 +26,21 @@ import { NewsPages } from './pages/NewsPages';
 import PlatformManagementPages from './pages/PlatformManagementPages';
 import { ShortCodeSupportPages } from './pages/ShortCodeSupportPages';
 import { AndroidAppPages } from './pages/AndroidAppPages';
+import CallCenterServicesPages from './pages/CallCenterServicesPages';
+import BackOfficeServicePages from './pages/BackOfficeServicePages';
+import TrainingHRSourcingPages from './pages/TrainingHRSourcingPages';
+import SoftwareDevelopmentPages from './pages/SoftwareDevelopmentPages';
+import DigitalServicePages from './pages/DigitalServicePages';
+import MobileApplicationsPages from './pages/MobileApplicationsPages';
+import { BlogDetailsPages } from './pages/BlogDetailsPages';
+import { BlogDetailsPages2 } from './pages/BlogDetailsPages2';
+import { BlogDetailsPages3 } from './pages/BlogDetailsPages3';
+import {NewsRoomPages1} from './pages/NewsRoomPages/NewsRoomPages1'
+import {NewsRoomPages2} from './pages/NewsRoomPages/NewsRoomPages2'
+import {NewsRoomPages3} from './pages/NewsRoomPages/NewsRoomPages3'
+import {NewsRoomPages4} from './pages/NewsRoomPages/NewsRoomPages4'
+import {NewsRoomPages5} from './pages/NewsRoomPages/NewsRoomPages5'
+import {NewsRoomPages6} from './pages/NewsRoomPages/NewsRoomPages6'
 
 
 function App() {
@@ -59,9 +74,22 @@ function App() {
           <Route path="/platformManagement" element={<PlatformManagementPages/>} />
           <Route path="/shortCodesupport" element={<ShortCodeSupportPages/>} />
           <Route path="/androidapp" element={<AndroidAppPages/>} />
-      
+          <Route path="/callcenterservices" element={<CallCenterServicesPages/>} />
+          <Route path="/backofficeservices" element={<BackOfficeServicePages/>} />
+          <Route path="/traininghrsourcing" element={<TrainingHRSourcingPages/>} />
+          <Route path="/softwaredevelopment" element={<SoftwareDevelopmentPages/>} />
+          <Route path="/digitalservice" element={<DigitalServicePages/>} />
+          <Route path="/mobileapplications" element={<MobileApplicationsPages/>} />
+          <Route path="/BlogDetails" element={<BlogDetailsPages/>} />
+          <Route path="/BlogDetails2" element={<BlogDetailsPages2/>} />
+          <Route path="/BlogDetails3" element={<BlogDetailsPages3/>} />
+          <Route path="/NewsRoomPages1" element={<NewsRoomPages1/>} />
+          <Route path="/NewsRoomPages2" element={<NewsRoomPages2/>} />
+          <Route path="/NewsRoomPages3" element={<NewsRoomPages3/>} />
+          <Route path="/NewsRoomPages4" element={<NewsRoomPages4/>} />
+          <Route path="/NewsRoomPages5" element={<NewsRoomPages5/>} />
+          <Route path="/NewsRoomPages6" element={<NewsRoomPages6/>} />
 
-          
         </Routes>
     </BrowserRouter>
     

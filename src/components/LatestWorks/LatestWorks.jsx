@@ -6,6 +6,8 @@ import Project3 from '../../assets/images/project3.jpg'
 import Project4 from '../../assets/images/project4.jpg'
 import Project5 from '../../assets/images/project5.jpg'
 import PrimaryBtn from '../Button/PrimaryBtn'
+import {Link} from 'react-router-dom'
+
 
 function LatestWorks() {
 
@@ -16,6 +18,7 @@ function LatestWorks() {
                 <h4 className='text-center py-5 SectionHeading'>Latest Works</h4>
                 <Row className='g-5'>
                     <Col md={4}>
+                        
                     <Card className='rounded-0 WorkCard'>
                         <Card.Img variant="top" className='LatestWorkCard rounded-0' src={Project1} />
                         <Card.Body>
@@ -26,9 +29,10 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                           <PrimaryBtn><a href="https://www.bacco.org.bd/" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
+                   
                     </Col>
 
                     <Col md={4}>
@@ -42,7 +46,7 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                        <PrimaryBtn><a href="https://www.issl.com.bd/" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
                     </Col>
@@ -59,7 +63,7 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                        <PrimaryBtn><a href="#" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
                     </Col>
@@ -77,7 +81,7 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                        <PrimaryBtn><a href="#" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
                     </Col>
@@ -94,7 +98,7 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                        <PrimaryBtn><a href="#" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
                     </Col>
@@ -111,7 +115,7 @@ function LatestWorks() {
                             
                         </Card.Body>
                         <div className="CardOverlay">
-                           <PrimaryBtn>Details</PrimaryBtn> 
+                        <PrimaryBtn><a href="#" rel="noopener" target='_blank'>Details </a></PrimaryBtn> 
                         </div>
                         </Card>
                     </Col>

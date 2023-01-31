@@ -9,6 +9,9 @@ import ContactUs from '../components/ContactUs/ContactUs'
 import Footer from '../components/Footer/Footer'
 import Countup from '../components/Countup/Countup'
 import LatestWorks from '../components/LatestWorks/LatestWorks'
+import { ClientSlider } from '../components/ClientSlider/ClientSlider'
+import { CopyRight } from '../components/CopyRight/CopyRight'
+
 
 
 export default function HomePages() {
@@ -23,8 +26,9 @@ export default function HomePages() {
      <LatestWorks/>
      <Blog Heading='LATEST BLOGS'/>
      <ContactUs/>
+      <ClientSlider/>
      <Footer/>
-
+    <CopyRight/>
   
     </>
   )

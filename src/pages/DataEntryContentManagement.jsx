@@ -6,7 +6,8 @@ import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
 import {inbound_service} from '../Data/BackOfficeServiceData/DataEntryContentManagementData'
-
+import { CopyRight } from '../components/CopyRight/CopyRight'
+import { BackOfficeMenu } from '../Data/BackOfficeServiceData/BackOfficeMenu'
 export default function InboundServices() {
 
   return (
@@ -14,9 +15,10 @@ export default function InboundServices() {
         <Header/>
         <NavBar/>
         <TopBanner/>
-        <Menu/>
+        <Menu menu={ BackOfficeMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>
+        <CopyRight/>
     </>
   )
 }

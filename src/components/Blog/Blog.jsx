@@ -1,10 +1,10 @@
 import React from 'react'
 import Cards from '../Cards/Cards'
 import {Container, Col, Row} from 'react-bootstrap'
-import Bolg1 from '../../assets/images/blog1.png'
-import Bolg2 from '../../assets/images/blog2.png'
-import Bolg3 from '../../assets/images/blog3.png'
-import Bolg4 from '../../assets/images/blog4.png'
+import Bolg1 from '../../assets/images/blog1.jpg'
+import Bolg2 from '../../assets/images/blog2.jpg'
+import Bolg3 from '../../assets/images/blog3.jpg'
+import {Link} from 'react-router-dom'
 
 
 function Blog({Heading}) {
@@ -15,7 +15,8 @@ function Blog({Heading}) {
       <h4 className='text-center py-5 SectionHeading'>{Heading}</h4>
     <Row>
 
-        <Col md={3} >
+        <Col md={4} >
+          <Link to='/BlogDetails'>
           <Cards>
             <img src={Bolg1}  alt="" />
             <div className="BlogContent">
@@ -24,8 +25,10 @@ function Blog({Heading}) {
             </div>
            
           </Cards>
+          </Link>
         </Col>
-        <Col md={3} >
+        <Col md={4} >
+        <Link to='/BlogDetails2'>
           <Cards>
             <img src={Bolg2}  alt="" />
             <div className="BlogContent">
@@ -33,8 +36,10 @@ function Blog({Heading}) {
               </div>
              
           </Cards>
+          </Link>
         </Col>
-        <Col md={3} >
+        <Col md={4} >
+        <Link to='/BlogDetails3'>
           <Cards>
             <img src={Bolg3}  alt="" />
             <div className="BlogContent">
@@ -42,16 +47,9 @@ function Blog({Heading}) {
             </div>
              
           </Cards>
+          </Link>
         </Col>
-        <Col md={3} >
-          <Cards>
-            <img src={Bolg4}  alt="" />
-            <div className="BlogContent">
-              <h5>Job</h5>
-            </div>
-            
-          </Cards>
-        </Col>
+
 
     </Row>
     </Container>

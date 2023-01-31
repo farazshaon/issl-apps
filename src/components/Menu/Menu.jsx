@@ -1,15 +1,18 @@
 import React from 'react'
 import {Container, Nav, Navbar} from 'react-bootstrap'
-function Menu() {
+import {Link} from 'react-router-dom'
+function Menu({menu}) {
   return (
     <>
         <Navbar bg="dark" variant="dark">
         <Container>
          
           <Nav className="me-auto">
-            <Nav.Link href="#home" className='text-light'>Home</Nav.Link>
-            <Nav.Link href="#features" className='text-light'>Features</Nav.Link>
-            <Nav.Link href="#pricing" className='text-light'>Pricing</Nav.Link>
+            {menu.length > 0 && menu.map((item, index)=> (
+              <Link key={index} to={item.url} className='text-light m-2'>{item.name}</Link>
+            ))}
+            
+
           </Nav>
         </Container>
       </Navbar>

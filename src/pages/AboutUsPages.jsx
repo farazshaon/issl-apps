@@ -1,22 +1,24 @@
 import React from 'react'
 import AboutUs from '../components/AboutUs/AboutUs'
+import { ClientSlider } from '../components/ClientSlider/ClientSlider'
+import { CopyRight } from '../components/CopyRight/CopyRight'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import Menu from '../components/Menu/Menu'
 import NavBar from '../components/NavBar/NavBar'
-import Team from '../components/Team/Team'
+
 import TopBanner from '../components/TopBanner/TopBanner'
+
 
 export default function AboutUsPages() {
   return (
     <>
-    <Header/>
+    <Header />
     <NavBar/>
-    <TopBanner/>
-    <Menu/>
+    <TopBanner BannerTitle='About Us'/>
     <AboutUs/>
-    <Team/>
+    <ClientSlider/>
     <Footer/>
+    <CopyRight/>
     </>
   )
 }

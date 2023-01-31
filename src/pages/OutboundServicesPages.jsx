@@ -6,17 +6,19 @@ import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
 import {inbound_service} from '../Data/CallCenterServiceData/outboundServiceData'
-
+import { CopyRight } from '../components/CopyRight/CopyRight'
+import { CallCenterServicesMenu } from '../Data/CallCenterServiceData/CallCenterServicesMenu'
 export default function InboundServices() {
 
   return (
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
-        <Menu/>
+        <TopBanner BannerTitle='OUT BOUND SERVICES'/>
+        <Menu menu={ CallCenterServicesMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>
+        <CopyRight/>
     </>
   )
 }
