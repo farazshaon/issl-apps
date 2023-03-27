@@ -14,7 +14,7 @@ export default function InboundServices() {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='HR SOURCING '/>
         <Menu menu={ TrainingHRsourcingMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>

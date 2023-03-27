@@ -12,7 +12,7 @@ export const ShortCodeSupportPages = () => {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='Short Code Support'/>
         <Menu menu={ DigitalServicesMenu}/>
         <ShortCodeSupport/>
         <Footer/>

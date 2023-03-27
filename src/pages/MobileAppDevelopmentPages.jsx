@@ -5,17 +5,17 @@ import TopBanner from '../components/TopBanner/TopBanner'
 import Menu from '../components/Menu/Menu'
 import DetailsPages from '../components/DetailsPages/DetailsPages'
 import Footer from '../components/Footer/Footer'
-import {inbound_service} from '../Data/BackOfficeServiceData/DigitalSupportServicesData'
+import {inbound_service} from '../Data/SoftwareDevelopmentData/MobileAppDevelopmentData'
 import { CopyRight } from '../components/CopyRight/CopyRight'
-import { BackOfficeMenu } from '../Data/BackOfficeServiceData/BackOfficeMenu'
+import { SoftwareDevelopMenu } from '../Data/SoftwareDevelopmentData/SoftwareDevelopMenu'
 export default function InboundServices() {
 
   return (
     <>
         <Header/>
         <NavBar/>
-        <TopBanner BannerTitle='DIGITAL SUPPORT SERVICES'/>
-        <Menu menu={ BackOfficeMenu}/>
+        <TopBanner BannerTitle='Mobile Application Development'/>
+        <Menu menu={SoftwareDevelopMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>
         <CopyRight/>

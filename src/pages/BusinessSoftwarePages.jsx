@@ -13,7 +13,7 @@ function BusinessSoftwarePages() {
     <>
       <Header/>
       <NavBar/>
-      <TopBanner/>
+      <TopBanner BannerTitle='Business Software'/>
       <Menu menu={ SoftwareDevelopMenu}/>
       <LatestWorks/>
       <Footer/>

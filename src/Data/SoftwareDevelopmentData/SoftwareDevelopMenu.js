@@ -1,10 +1,14 @@
 export  const SoftwareDevelopMenu = [
     {
-        name: 'Custom softwaredevelopment',
+        name: 'Custom Software Development',
         url: '/customsoftwaredevelopment'
     },
     {
-        name: 'Softwareconsulting',
+        name: 'Mobile Application Development',
+        url: '/mobileAppdevelopment'
+    },
+    {
+        name: 'Software Consulting',
         url: '/softwareconsulting'
     },
     {

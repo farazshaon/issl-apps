@@ -14,7 +14,7 @@ export default function InboundServices() {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='DATA ENTRY & CONTENT MANAGEMENT'/>
         <Menu menu={ BackOfficeMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>

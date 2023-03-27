@@ -12,7 +12,7 @@ function PlatformManagementPages() {
     <>
     <Header/>
     <NavBar/>
-    <TopBanner/>
+    <TopBanner BannerTitle='Platform Management'/>
     <Menu menu={ DigitalServicesMenu}/>
     <PlatformManagement/>
     <Footer/>

@@ -17,7 +17,7 @@ export default function InboundServices() {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='BAD DEBT RECOVERY'/>
         <Menu menu={ BackOfficeMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>

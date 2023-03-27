@@ -1,14 +1,14 @@
 export  const DigitalServicesMenu = [
     {
-        name: ' smsBusiness ',
+        name: ' SMS Business ',
         url: '/smsBusiness'
     },
     {
-        name: 'PlatformManagement',
+        name: 'Platform Management',
         url: '/platformManagement'
     },
     {
-        name: 'ShortCodesupport',
+        name: 'Short Code support',
         url: '/shortCodesupport'
     }
 ]

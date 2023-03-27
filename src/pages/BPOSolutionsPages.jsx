@@ -14,7 +14,7 @@ export default function InboundServices() {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='BPO SOLUTIONS'/>
         <Menu menu={ SoftwareDevelopMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>

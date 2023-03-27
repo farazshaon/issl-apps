@@ -31,7 +31,7 @@ function Header() {
                                     <Nav.Link className='text-dark'> <FaHeadset/> Chat Now</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item as="li">
-                                    <Nav.Link className='text-dark'>(9 AM to 6 PM Except Fridays & Govt. Holidays)</Nav.Link>
+                                    <Nav.Link className='text-dark fw-12'>(9 AM to 6 PM Except Fridays & Govt. Holidays)</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </div>

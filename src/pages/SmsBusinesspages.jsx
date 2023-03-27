@@ -14,11 +14,11 @@ export default function InboundServices() {
     <>
         <Header/>
         <NavBar/>
-        <TopBanner/>
+        <TopBanner BannerTitle='SMS Business'/>
         <Menu menu={ DigitalServicesMenu}/>
         <DetailsPages data={inbound_service}/>
         <Footer/>
-        <CopyRight/>
+        <CopyRight/> 
     </>
   )
 }

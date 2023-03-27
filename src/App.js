@@ -14,6 +14,7 @@ import TrainingPages from './pages/TrainingPages';
 import SkillDevelopmentProgramPages from './pages/SkillDevelopmentProgramPages'
 import HrSourcePages from './pages/HrSourcePages'
 import CustomSoftwareDevelopmentPages from './pages/CustomSoftwareDevelopmentPages'
+import MobileAppDevelopmentPages from './pages/MobileAppDevelopmentPages'
 import SoftwareConsultingPages from './pages/SoftwareConsultingPages'
 import BPOSolutionsPages from './pages/BPOSolutionsPages'
 import BusinessSoftwarePages from './pages/BusinessSoftwarePages'
@@ -61,6 +62,7 @@ function App() {
           <Route path="/skilldevelopmentprogram" element={<SkillDevelopmentProgramPages/>} />
           <Route path="/hrsourceing" element={<HrSourcePages/>} />
           <Route path="/customsoftwaredevelopment" element={<CustomSoftwareDevelopmentPages/>} />
+          <Route path="/mobileAppdevelopment" element={<MobileAppDevelopmentPages/>} />
           <Route path="/softwareconsulting" element={<SoftwareConsultingPages/>} />
           <Route path="/bposolutions" element={<BPOSolutionsPages/>} />
           <Route path="/businesssoftware" element={<BusinessSoftwarePages/>} />

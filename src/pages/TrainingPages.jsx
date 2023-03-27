@@ -13,7 +13,7 @@ function TrainingPages() {
     <>
     <Header/>
     <NavBar/>
-    <TopBanner/>
+    <TopBanner BannerTitle='Training'/>
     <Menu menu={TrainingHRsourcingMenu}/>
     <DetailsPages  data={inbound_service}/>
     <Footer/>
