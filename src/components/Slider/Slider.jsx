@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Carousel} from 'react-bootstrap'
+import Slider0 from '../../assets/images/Sliderimg/header-slider-0.jpg'
 import Slider1 from '../../assets/images/Sliderimg/header-slider-1.jpg'
 import Slider2 from '../../assets/images/Sliderimg/header-slider-2.jpg'
 import Slider3 from '../../assets/images/Sliderimg/header-slider-3.jpg'
@@ -18,6 +19,18 @@ export default function Slider() {
   return (
     <>
  <Carousel fade>
+ <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Slider0}
+            alt="Third slide"
+          />
+
+          <div className="SliderOverlay">  
+           
+          </div>
+          
+        </Carousel.Item>
       <Carousel.Item>
           <img
             className="d-block w-100"

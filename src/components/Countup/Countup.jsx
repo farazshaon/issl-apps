@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import CountUp from 'react-countup'
-import VisibilitySensor from 'react-visibility-sensor';
+// import VisibilitySensor from 'react-visibility-sensor';
 import { FaSmile, FaUserFriends, FaLaptop, FaHeadset, FaIndustry } from "react-icons/fa";
 
 export default class Countup extends Component {
